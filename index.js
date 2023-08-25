@@ -112,7 +112,7 @@ mongoose
   })
   .then(() => {
     console.log("succesfully connected to DB");
-    app.listen(3000, () => console.log("Server is listening on PORT 3000"));
+    app.listen(80, () => console.log("Server is listening on PORT 80"));
   })
   .catch((e) => {
     console.log(e);
